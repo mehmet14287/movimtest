@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Dizi başlığı dinamik olarak eklenecek -->
+    <title>Movim</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=1.8">
+</head>
+<body class="text-gray-200">
+
+    <!-- HEADER -->
+    <header class="bg-gray-900/50 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold neon-text-header">Movim</a>
+            <a href="archive.html" class="bg-gray-700 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i>
+                <span>Tüm Arşiv</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- DİZİ DETAY ANA BÖLÜMÜ -->
+    <main id="detail-main-content" class="container mx-auto px-4 py-12 md:py-20">
+        <!-- İçerik JavaScript ile dinamik olarak yüklenecek -->
+        <div class="text-center py-20">
+            <i class="fas fa-spinner fa-spin text-4xl text-teal-400"></i>
+            <p class="mt-4 text-lg">Dizi bilgileri yükleniyor...</p>
+        </div>
+    </main>
+
+    <!-- BUNLARI DA BEĞENEBİLİRSİNİZ -->
+    <section class="py-20 px-4 bg-opacity-50" style="background-color: #101224;">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Bunları da Sevebilirsiniz</h2>
+            <div id="recommendations-container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
+                <!-- Öneriler JavaScript ile dinamik olarak doldurulacak -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-gray-500 py-8 border-t border-gray-800">
+        <p>&copy; 2024 Movim. Tüm hakları saklıdır.</p>
+        <p class="mt-2"><a href="#" class="hover:text-white">DMCA</a> | <a href="#" class="hover:text-white">İletişim</a></p>
+    </footer>
+
+    <script src="dizi-detay.js?v=1.8"></script>
+</body>
+</html>

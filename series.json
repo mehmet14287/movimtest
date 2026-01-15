@@ -1,0 +1,59 @@
+
+[
+  {
+    "id": "squid-game",
+    "title": "Squid Game",
+    "genre": "Gerilim, Hayatta Kalma",
+    "summary": "Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf daveti kabul eder. İçeride onları cazip bir ödül ve ölümcül tehlikeler beklemektedir.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dDlEsim36GoecczOhCLRyL1n33g.jpg"
+  },
+  {
+    "id": "crash-landing-on-you",
+    "title": "Crash Landing on You",
+    "genre": "Romantik, Komedi, Dram",
+    "summary": "Güney Koreli bir mirasçının yamaç paraşütüyle uçarken yaptığı kaza onu Kuzey Kore'ye sürükler ve orada bir ordu subayıyla yolları kesişir. Subay, onu korumaya karar verir.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/66jaL3QGj0a6K1sJJTc6Sij2p6.jpg"
+  },
+  {
+    "id": "the-glory",
+    "title": "The Glory",
+    "genre": "Dram, Gerilim, İntikam",
+    "summary": "Bir lise öğrencisi, korkunç bir zorbalık saldırısından sağ kurtulduktan yıllar sonra, hem faillerden hem de seyirci kalanlardan intikam almak için ayrıntılı bir plan yapar.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pE1s2NQ2Czt89pTJj1p3hMMi41N.jpg"
+  },
+  {
+    "id": "extraordinary-attorney-woo",
+    "title": "Extraordinary Attorney Woo",
+    "genre": "Hukuk, Dram",
+    "summary": "Asperger sendromlu, son derece zeki bir kadın, Kore'nin en iyi hukuk firmalarından birinde avukat olarak işe başlar. Zekası ve fotografik hafızasıyla davaları çözerken sosyal zorluklarla yüzleşir.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/b3B12pIZo3Kx2L2cO3gP2bW4nOF.jpg"
+  },
+  {
+    "id": "all-of-us-are-dead",
+    "title": "All of Us Are Dead",
+    "genre": "Korku, Zombi, Aksiyon",
+    "summary": "Bir lisede zombi virüsü salgını patlak verdiğinde, kapana kısılan öğrenciler ya kaçmak için bir yol bulmalı ya da enfeksiyon kapan yırtıcılara dönüşmelidir.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7Bsv2r4H60aAM3S2a4n59yV3f7G.jpg"
+  },
+  {
+    "id": "kingdom",
+    "title": "Kingdom",
+    "genre": "Tarihi, Korku, Gerilim",
+    "summary": "Joseon döneminde geçen hikayede, ölen kralın dirilişi ve garip bir vebanın yayılmasıyla ilgili söylentileri araştıran veliaht prens, krallığı tehdit eden korkunç bir gerçeği ortaya çıkarır.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tFVh35lpr8CjP12hJc6S5dI5A7A.jpg"
+  },
+  {
+    "id": "itaewon-class",
+    "title": "Itaewon Class",
+    "genre": "Dram",
+    "summary": "Haksız yere hapse giren ve babasını kaybeden bir genç, Seul'ün hareketli Itaewon mahallesinde bir bar açarak güçlü bir CEO'dan intikam almak için yemin eder.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uWsoR1T32hMANcT2Ie2T9H0sJ8K.jpg"
+  },
+  {
+    "id": "vincenzo",
+    "title": "Vincenzo",
+    "genre": "Komedi, Suç, Dram",
+    "summary": "Bir İtalyan mafya ailesinin danışmanı olan Koreli-İtalyan bir avukat, anavatanına döner ve adaleti kendi yöntemleriyle sağlamak için büyük bir holdinge karşı savaş açar.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dv1iTj7o2mI4z7F22i2sQyvoQx.jpg"
+  }
+]

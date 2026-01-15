@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movim - Dizi Arşivi</title>
+    <meta name="description" content="Movim'in tüm Kore ve Asya dizisi arşivini keşfedin. Aradığınız diziyi kolayca bulun ve izlemeye başlayın.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=1.6">
+</head>
+<body class="text-gray-200">
+
+    <!-- HEADER -->
+    <header class="bg-gray-900/50 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold neon-text-header">Movim</a>
+            <a href="index.html" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                <i class="fas fa-home mr-2"></i>Ana Sayfa
+            </a>
+        </div>
+    </header>
+
+    <!-- DİZİ ARŞİVİ -->
+    <section class="py-12 px-4">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-center">Dizi Arşivi</h1>
+            
+            <!-- ARAMA ÇUBUĞU -->
+            <div class="mb-10 max-w-2xl mx-auto">
+                <div class="relative">
+                    <input type="text" id="search-bar" placeholder="Dizi adıyla ara..." class="w-full bg-gray-800/60 border-2 border-gray-700 rounded-full py-3 px-6 text-white placeholder-gray-400 focus:outline-none focus:border-teal-500 transition-colors">
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-5">
+                        <i class="fas fa-search text-gray-400"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DİZİ LİSTESİ -->
+            <div id="full-series-archive-container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+                <!-- JavaScript ile dinamik olarak doldurulacak -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-gray-500 py-8 border-t border-gray-800 mt-12">
+        <p>&copy; 2024 Movim. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="archive.js?v=1.6"></script>
+</body>
+</html>

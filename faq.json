@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Movim kullanmak güvenli mi?",
+    "answer": "Evet, kesinlikle. Uygulama dosyamız herhangi bir zararlı yazılım içermediğinden emin olmak için birden fazla güvenlik taramasından geçirilmiştir. Güvenle kurabilirsiniz."
+  },
+  {
+    "question": "Uygulama ücretli mi?",
+    "answer": "Hayır. Movim tamamen ücretsizdir. Reklam veya gizli ücretler olmadan tüm içeriğe sınırsız erişimin keyfini çıkarabilirsiniz."
+  },
+  {
+    "question": "Yeni bölümler ne sıklıkla ekleniyor?",
+    "answer": "Kore'de yayınlanan dizilerin yeni bölümlerini, yayınlandıktan en geç birkaç saat sonra Türkçe altyazılı olarak eklemeye özen gösteriyoruz."
+  },
+  {
+    "question": "Uygulama neden Google Play Store'da yok?",
+    "answer": "Uygulamanın sunduğu içeriklerin telif hakları nedeniyle Google Play Store politikalarıyla uyumlu değildir. Bu yüzden uygulamayı sadece APK olarak sunabiliyoruz."
+  }
+]
