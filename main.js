@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const seriesHTML = marqueeSeries.map(series => `
             <a href="dizi-detay.html?id=${series.id}" class="flex-shrink-0 w-48 md:w-56 lg:w-64 group series-card rounded-lg overflow-hidden" style="aspect-ratio: 2/3;">
                 <img src="${series.posterUrl}" alt="${series.title} afişi" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-4">
                     <h3 class="text-lg font-bold text-white">${series.title}</h3>
                 </div>
