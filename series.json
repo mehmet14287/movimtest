@@ -1,59 +1,849 @@
-
 [
   {
-    "id": "squid-game",
-    "title": "Squid Game",
-    "genre": "Gerilim, Hayatta Kalma",
-    "summary": "Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf daveti kabul eder. İçeride onları cazip bir ödül ve ölümcül tehlikeler beklemektedir.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/dDlEsim36GoecczOhCLRyL1n33g.jpg"
+    "id": "KayipSef1080",
+    "title": "Kayıp Şef",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/LzmsQKv9/kayip-sef.jpg"
   },
   {
-    "id": "crash-landing-on-you",
-    "title": "Crash Landing on You",
-    "genre": "Romantik, Komedi, Dram",
-    "summary": "Güney Koreli bir mirasçının yamaç paraşütüyle uçarken yaptığı kaza onu Kuzey Kore'ye sürükler ve orada bir ordu subayıyla yolları kesişir. Subay, onu korumaya karar verir.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/66jaL3QGj0a6K1sJJTc6Sij2p6.jpg"
+    "id": "KMGOldu1080",
+    "title": "Kaçak Milyarder Gelinim Oldu",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Xxr2f301/kacakmilyoner.jpg"
   },
   {
-    "id": "the-glory",
-    "title": "The Glory",
-    "genre": "Dram, Gerilim, İntikam",
-    "summary": "Bir lise öğrencisi, korkunç bir zorbalık saldırısından sağ kurtulduktan yıllar sonra, hem faillerden hem de seyirci kalanlardan intikam almak için ayrıntılı bir plan yapar.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/pE1s2NQ2Czt89pTJj1p3hMMi41N.jpg"
+    "id": "GolKrali",
+    "title": "Gol Kralı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/GQfzRrzT/gol-krali.jpg"
   },
   {
-    "id": "extraordinary-attorney-woo",
-    "title": "Extraordinary Attorney Woo",
-    "genre": "Hukuk, Dram",
-    "summary": "Asperger sendromlu, son derece zeki bir kadın, Kore'nin en iyi hukuk firmalarından birinde avukat olarak işe başlar. Zekası ve fotografik hafızasıyla davaları çözerken sosyal zorluklarla yüzleşir.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/b3B12pIZo3Kx2L2cO3gP2bW4nOF.jpg"
+    "id": "AnneninAdina1080",
+    "title": "Annenin Adına",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/QxdJH1R/anneninadina.jpg"
   },
   {
-    "id": "all-of-us-are-dead",
-    "title": "All of Us Are Dead",
-    "genre": "Korku, Zombi, Aksiyon",
-    "summary": "Bir lisede zombi virüsü salgını patlak verdiğinde, kapana kısılan öğrenciler ya kaçmak için bir yol bulmalı ya da enfeksiyon kapan yırtıcılara dönüşmelidir.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/7Bsv2r4H60aAM3S2a4n59yV3f7G.jpg"
+    "id": "tahtikiliclaal",
+    "title": "Tahtı Kılıçla Almak",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/d4dWHM4v/tahti-kilicla-almak.jpg"
   },
   {
-    "id": "kingdom",
-    "title": "Kingdom",
-    "genre": "Tarihi, Korku, Gerilim",
-    "summary": "Joseon döneminde geçen hikayede, ölen kralın dirilişi ve garip bir vebanın yayılmasıyla ilgili söylentileri araştıran veliaht prens, krallığı tehdit eden korkunç bir gerçeği ortaya çıkarır.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/tFVh35lpr8CjP12hJc6S5dI5A7A.jpg"
+    "id": "CocukVeliaht",
+    "title": "Çocuk Veliaht",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/B5m05cn2/cocuk-veliaht.jpg"
   },
   {
-    "id": "itaewon-class",
-    "title": "Itaewon Class",
-    "genre": "Dram",
-    "summary": "Haksız yere hapse giren ve babasını kaybeden bir genç, Seul'ün hareketli Itaewon mahallesinde bir bar açarak güçlü bir CEO'dan intikam almak için yemin eder.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/uWsoR1T32hMANcT2Ie2T9H0sJ8K.jpg"
+    "id": "KumarinEfendisi",
+    "title": "Kumarın Efendisi",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/wDbr5wL/kumarin-efendisi.jpg"
   },
   {
-    "id": "vincenzo",
-    "title": "Vincenzo",
-    "genre": "Komedi, Suç, Dram",
-    "summary": "Bir İtalyan mafya ailesinin danışmanı olan Koreli-İtalyan bir avukat, anavatanına döner ve adaleti kendi yöntemleriyle sağlamak için büyük bir holdinge karşı savaş açar.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/dv1iTj7o2mI4z7F22i2sQyvoQx.jpg"
+    "id": "AskKapimiCalinca",
+    "title": "Aşk Kapımı Çalınca",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/JjFp85z7/ask-kapimi-calinca.jpg"
+  },
+  {
+    "id": "DemirAnne",
+    "title": "Demir Anne Aile Kurtuluşu",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/ZpCzxd42/demir-anne.jpg"
+  },
+  {
+    "id": "PatronKUE",
+    "title": "Patron Kadının Usta Eşi",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/35tZdv36/patron-kadinin-usta-esi.jpg"
+  },
+  {
+    "id": "UstunlukBHAH",
+    "title": "Üstünlük Bir Halk Adamı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Cp1Hrhgc/ustunluk-bir-halk-adami.jpg"
+  },
+  {
+    "id": "SafGelin",
+    "title": "Saf Gelin",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/8LFfRqj8/saf-gelin.jpg"
+  },
+  {
+    "id": "KariminEPMV",
+    "title": "Karımın Eline Püsküllü Mızrak Verdim",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/msb5tZM/Kar-m-n-Eline-P-sk-ll-M-zrak-Verdim.jpg"
+  },
+  {
+    "id": "BBabaninK",
+    "title": "Bir Babanın Kefareti",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/WvZ8FD0Z/Bir-Baban-n-Kefareti.jpg"
+  },
+  {
+    "id": "BAnneDBedel",
+    "title": "Bir Anne Dünyaya Bedel",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/nq2Yc409/bir-anne-dunyaya-bedel.jpg"
+  },
+  {
+    "id": "VedadanSSO",
+    "title": "Vedadan Sonra Seni Özledim",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/tT8n5XYj/vedadan-sonra-seni-zledim.jpg"
+  },
+  {
+    "id": "MuhurluYumruk",
+    "title": "Mühürlü Yumruk",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/mVWCgFqS/M-h-rl-Yumruk.jpg"
+  },
+  {
+    "id": "DriftAraba1080",
+    "title": "Hadi Drift Araba Yıkama Dayısı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/LB0qwjy/Araba-Yikama-Dayisi.jpg"
+  },
+  {
+    "id": "CeoYildirimN",
+    "title": "Ceo İle Yıldırım Nikahı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/dx9cMJH/Ceo-le-Y-ld-r-m-Nikah.jpg"
+  },
+  {
+    "id": "PatronRL",
+    "title": "Patronun Ruhu Lisede",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/3yBMyWkJ/Patronun-Ruhu-Lisede.jpg"
+  },
+  {
+    "id": "KLezzetUstasi",
+    "title": "Küçük Lezzet Ustası",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/PsctJKKJ/Kucuklezzetustasi.jpg"
+  },
+  {
+    "id": "SekizYillikGA",
+    "title": "Sekiz Yıllık Gizli Aşk",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Zzhxdxpy/sekiz-yillik-gizli.jpg"
+  },
+  {
+    "id": "YenilmezDahi1080",
+    "title": "Yenilmez Dahi",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/tT3qVSHr/yenilmez-dahi.jpg"
+  },
+  {
+    "id": "OSaatinİGA",
+    "title": "Ölüm Saatini Gören Adam",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/LzDvRmKL/olum-saatini-gorebilen.jpg"
+  },
+  {
+    "id": "PatronAnneBHY",
+    "title": "Patron Anne Bana Hakikatten Yenilmez",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Hp10JhKP/baskan-anne-babam.jpg"
+  },
+  {
+    "id": "PatronABHYAltyazi",
+    "title": "Patron Anne Baba Hakikatten Yenilmez",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/TMytw5sQ/Patron-Anne-Baba-Hakikatten-Yenilmez-Altyaz.jpg"
+  },
+  {
+    "id": "GucumVG",
+    "title": "Gücüm Ve Gelinlerim",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/7dJ6Kxj5/gucum-ve-gelinlerim.jpg"
+  },
+  {
+    "id": "YukselisinK",
+    "title": "Yükselişin Kılıcı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/VWQcsZMD/yukselisin-kilici.jpg"
+  },
+  {
+    "id": "BeklenmeyenY",
+    "title": "Beklenmeyen Yetenek",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/g53SPYW/Beklenmeyen-Yetenek.jpg"
+  },
+  {
+    "id": "SuperBaba",
+    "title": "Süper Baba",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Y4pW4DPb/super-baba.jpg"
+  },
+  {
+    "id": "UstaOlmakiD",
+    "title": "Usta Olmak İçin Doğmuş",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/cShPBzqt/Usta-Olmak-in-Do-mu.jpg"
+  },
+  {
+    "id": "SarayinGizliK1080",
+    "title": "Sarayın Gizli Kahramanı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/pBQ4P9xq/Saray-n-Gizli-Kahraman.png"
+  },
+  {
+    "id": "KilicinGizemi1080",
+    "title": "Kılıcın Gizemi",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/RTgRYqq2/K-l-c-n-Gizemi.png"
+  },
+  {
+    "id": "AilemdeKVar1080",
+    "title": "Ailemde Kahraman Var",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/1YmmfGbv/Ailemde-Kahraman-Var.jpg"
+  },
+  {
+    "id": "BXiaS1080",
+    "title": "Büyük Xia’nın Savaşçısı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/6MkxTcb/B-y-k-Xia-n-n-Sava-s.png"
+  },
+  {
+    "id": "UnutulanY1080",
+    "title": "Unutulan Yıldız - 30 Yıl Sonra",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/QFHV6YNm/Unutulan-Y-ld-z-30-Y-l-Sonra.png"
+  },
+  {
+    "id": "OICEO1080",
+    "title": "Oğlumu İsteyen CEO",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/tM4wVzKf/O-lumu-steyen-CEO.png"
+  },
+  {
+    "id": "ZenginB1080",
+    "title": "Zenginlere Bulaşmayın",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Y4LBj7nf/Zenginlere-Bula-may-n.png"
+  },
+  {
+    "id": "DSUAY1080",
+    "title": "Dövüş Sanatlarının Ünlü Ailesi Yiğit",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/YTjQBVJY/Dovus-sanatlarinin-unlu-ailesi-Yigit.png"
+  },
+  {
+    "id": "AnkaKD1080",
+    "title": "Anka Kuşu’nun Dönüşü",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/nMdQ36ty/Anka-Ku-u-nun-D-n.png"
+  },
+  {
+    "id": "BirOYetmez1080",
+    "title": "Bir Ömür Yetmez",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Q7y5mJx7/Bir-m-r-Yetmez.png"
+  },
+  {
+    "id": "KayipO1080",
+    "title": "Kayıp Oğlum",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/F4KGCS17/Kay-p-O-lum.png"
+  },
+  {
+    "id": "SonradanGormek",
+    "title": "Sonradan Görmek",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/gZxhS8mJ/Sonradan-G-rmek.png"
+  },
+  {
+    "id": "GizliBebekZB",
+    "title": "Gizli Bebek Zengin Baba",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/CKsq14f0/Gizli-Bebek-Zengin-Baba.jpg"
+  },
+  {
+    "id": "UnutulanCocuk",
+    "title": "Unutulan Çocuk",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/LzQWcqTR/Unutulan-ocuk.jpg"
+  },
+  {
+    "id": "SarayinGolgesindekiRuya",
+    "title": "Sarayın Gölgesindeki Rüya",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/YTDFjN0M/Saray-n-G-lgesindeki-R-ya.jpg"
+  },
+  {
+    "id": "AkarsuVErtas",
+    "title": "Akarsu ve Ertaş Kaderin Çatlağı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/TBqHqTNP/Akarsu-ve-Erta-Kaderin-atla.jpg"
+  },
+  {
+    "id": "KullerindenDogan",
+    "title": "Küllerinden Doğan",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/VW2jB9Rz/K-llerinden-Do-an.jpg"
+  },
+  {
+    "id": "AskBirRecetedir",
+    "title": "Aşk Bir Reçetedir",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/WWyctqKq/A-k-Bir-Re-etedir.jpg"
+  },
+  {
+    "id": "OlgunAPesinde",
+    "title": "Olgun Aşkın Peşinde",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/gLwnQNQ5/Olgun-A-k-n-Pe-inde.jpg"
+  },
+  {
+    "id": "CBaskentinK",
+    "title": "Çekilin Ben Başkentin Kralıyım",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/rGrkdThp/ekilin-Ben-Ba-kentin-Kral-y-m.jpg"
+  },
+  {
+    "id": "YukselisGunu",
+    "title": "Yükseliş Günü",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/gXpSNDR/Y-kseli-G-n.jpg"
+  },
+  {
+    "id": "HEDaimaU",
+    "title": "Hiç Ezilmeyen Daima Üstat",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/HL2fmv2g/Hi-Ezilmeyen-Daima-stat.png"
+  },
+  {
+    "id": "KaderBYB",
+    "title": "Kader Bizi Yeniden Buluşturdu",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/BVfrp0q3/Kader-Bizi-Yeniden-Bulu-turdu.jpg"
+  },
+  {
+    "id": "SavasEY",
+    "title": "Savaş Ejderhasının Yükselişi",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/9krsYwDH/Sava-Ejderhas-n-n-Y-kseli-i.png"
+  },
+  {
+    "id": "YolunEfendileri",
+    "title": "Yolun Efendileri",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/fzCgM3fy/Yolun-Efendileri.jpg"
+  },
+  {
+    "id": "GecGelenA",
+    "title": "Geç Gelen Aydınlık",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/kVp2pHGn/Ge-Gelen-Ayd-nl-k.jpg"
+  },
+  {
+    "id": "IntikamciGozde",
+    "title": "İntikamcı Gözde",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/RkfG7YtD/ntikamc-Go-zde.jpg"
+  },
+  {
+    "id": "AsklaGelenP",
+    "title": "Aşkla Gelen Pişmanlık",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/G4QBXQDG/A-kla-Gelen-Pi-manl-k.jpg"
+  },
+  {
+    "id": "AlfaKral",
+    "title": "Alfa Kral ve Onun Bakire Gelini",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/BV72fkpz/Alfa-Kral-Ve-Onun-Bakire-Gelini.jpg"
+  },
+  {
+    "id": "AskinGercekF",
+    "title": "Aşkın Gerçek Faturası",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/gZd56txq/A-k-n-Ger-ek-Faturas.jpg"
+  },
+  {
+    "id": "PacavraKY",
+    "title": "Paçavralı Kahramanın Yükselişi",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/pvSCmLjb/Pa-avral-Kahraman-n-Y-kseli-i.jpg"
+  },
+  {
+    "id": "OnurBorcu",
+    "title": "Onur Borcu",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/dJVR51Yg/Onur-Borcu.jpg"
+  },
+  {
+    "id": "YanilsamaninCicegi",
+    "title": "Yanılsamanın Çiçeği",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/nNX7FBBd/Yan-lsaman-n-i-e-i.jpg"
+  },
+  {
+    "id": "AskinSahipsizC",
+    "title": "Aşkın Sahipsiz Çalıntısı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/cSdhp1H8/A-k-n-Sahipsiz-al-nt-s.jpg"
+  },
+  {
+    "id": "KuliYK",
+    "title": "Küller İçinden Yan Karakter",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/WvrDDRFd/K-ller-inden-Yan-Karakter.jpg"
+  },
+  {
+    "id": "GokyuzuEfsanesi",
+    "title": "Gökyüzü Ve Yeryüzü Efsanesi Ejderha Kraliçesini Arayış",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Pv2rZhrT/G-ky-z-Efsanesi.jpg"
+  },
+  {
+    "id": "AlfaBabaAEG",
+    "title": "Alfa Baba Annemi Eve Götür",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/mVGLvmZR/Alfa-Baba-Annemi-Eve-G-t-r.jpg"
+  },
+  {
+    "id": "ZenginKAYapisti",
+    "title": "Zengin Kız Aşkıma Yapıştı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/27Pm3x4n/Zengin-K-z-A-k-ma-Yap-t.jpg"
+  },
+  {
+    "id": "BenAnneyim",
+    "title": "Ben Anneyim",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/ch6C7hbs/Ben-Anneyim.jpg"
+  },
+  {
+    "id": "GozTeknigiUY",
+    "title": "Göz Tekniği Uyandıktan Sonra",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/fVhVcY6c/G-z-Tekni-i-Uyand-ktan-Sonra.jpg"
+  },
+  {
+    "id": "KucukKaptanGY",
+    "title": "Küçük Kaptan Gökyüzüne Yolculuk",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/rGGCg5ZX/Ku-c-u-k-Kaptan-Go-kyu-zu-ne-Yolculuk.jpg"
+  },
+  {
+    "id": "YuceSeytanK",
+    "title": "Yüce Şeytan Kralı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/j9JCpZv9/Y-ce-eytan-Kral.jpg"
+  },
+  {
+    "id": "AileninGDamat",
+    "title": "Ailenin Gözdesi Damat",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/pjL534v0/Ailenin-G-zdesi-Damat.jpg"
+  },
+  {
+    "id": "HBirEfsane",
+    "title": "Hanımefendi Bir Efsane",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/gbrtSXjR/Han-mefendi-Bir-Efsane.jpg"
+  },
+  {
+    "id": "SonsuzVedalarinS",
+    "title": "Sonsuz Vedaların Sonuncusu",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/zTfsZ4qW/Sonsuz-Vedalar-n-Sonuncusu.jpg"
+  },
+  {
+    "id": "BirMelekKS",
+    "title": "Bir Melek Kadar Saf",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Q35Bjntr/Bir-Melek-Kadar-Saf.jpg"
+  },
+  {
+    "id": "MasumiyetinIntikami",
+    "title": "Masumiyetin İntikamı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/TBKTv54T/Masumiyetin-ntikam.jpg"
+  },
+  {
+    "id": "SeninleBirOmur",
+    "title": "Seninle Bir Ömür",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/rRFq2PCc/Seninle-Bir-m-r.jpg"
+  },
+  {
+    "id": "AyniAileyeGG2",
+    "title": "Aynı Aileye Gelin Giden 2 Kız Kardeş",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/4Rv6rHS0/Ayn-Aileye-Gelin-Giden-2-K-z-Karde.jpg"
+  },
+  {
+    "id": "SavasTListesi",
+    "title": "Savaş Tanrıları Listesi: Kader Değişimi",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/ccBDGmDv/Sava-tanr-lar-listesi-Kader-de-i-imi.jpg"
+  },
+  {
+    "id": "KorumaBeyAS",
+    "title": "Koruma Bey Artık Sizi İstemiyorum",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/ch2jrtN3/Koruma-Bey-Art-k-Sizi-stemiyorum.jpg"
+  },
+  {
+    "id": "KısCicegi",
+    "title": "Kış Çiçeği",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/N2KZhDWW/K-i-e-i.jpg"
+  },
+  {
+    "id": "Lezzetliintikam",
+    "title": "Lezzetli İntikam",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/nNLkQX0m/Lezzetli-ntikam.jpg"
+  },
+  {
+    "id": "MilyarlikIhanet",
+    "title": "Milyarlık İhanet",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/wNDRrqSC/Milyarl-k-hanet.jpg"
+  },
+  {
+    "id": "YeniBedendeYeniK",
+    "title": "Yeni Bedende Yeni Kader",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/4ZWZ5Nqr/Yeni-Bedende-Yeni-Kader.png"
+  },
+  {
+    "id": "OkulGuzeliCK",
+    "title": "Okul Güzeli ve Çılgın Koruması",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/pBkjBZfN/Okul-G-zeli-Ve-lg-n-Korumas.jpg"
+  },
+  {
+    "id": "YenilmezKoruma",
+    "title": "Yenilmez Koruma",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/chR4TS3T/Yenilmez-Koruma.jpg"
+  },
+  {
+    "id": "SendenVazgeciyorumP",
+    "title": "Senden Vazgeçiyorum Paşam",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/7dnZ6BJ0/Senden-Vazge-iyorum-Pa-am.jpg"
+  },
+  {
+    "id": "KraliyetTakintisi",
+    "title": "Kraliyet Takıntısı İvnyn Kaderi",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/xq5LTYbv/Kraliyet-Tak-nt-s-vnyn-Kaderi.jpg"
+  },
+  {
+    "id": "İlahiGozlerSH",
+    "title": "İlahi Gözler Şehrin Hükümdarı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Hpnc5PL0/lahi-G-zler-ehrin-H-k-mdar.png"
+  },
+  {
+    "id": "GencKilicUstasi",
+    "title": "Genç Kılıç Ustası",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Fk0wMY3j/Ailenin-G-zdesi-Damat.jpg"
+  },
+  {
+    "id": "TanrilarinDGIlticasi",
+    "title": "Tanrıların Dilsiz Geline İlticası",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/21VzmQft/Tanr-lar-n-Dilsiz-Geline-lticas.jpg"
+  },
+  {
+    "id": "GizliDeha",
+    "title": "Gizli Deha",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/N688XczF/Gizli-Deha.jpg"
+  },
+  {
+    "id": "OnceEsimiKurtaracagim",
+    "title": "Önce Eşimi Kurtaracağım",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/PZhc9hyd/nce-E-imi-Kurtaraca-m.jpg"
+  },
+  {
+    "id": "SansKusu",
+    "title": "Şans Kuşu",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/jPhTgtgr/ans-Ku-u.jpg"
+  },
+  {
+    "id": "BirYeminBirTuzak",
+    "title": "\"Bir Yemin, Bir Tuzak\"",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/zWdmLLwv/Bir-Yemin-Bir-Tuzak.jpg"
+  },
+  {
+    "id": "GorunmeyenDegerinG",
+    "title": "Görünmeyen Değerin Gözü",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/rRr8X3pH/G-r-nmeyen-De-erin-G-z.jpg"
+  },
+  {
+    "id": "TasinAltindakiI",
+    "title": "Taşın Altındaki Işık",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/WNnVcP3Y/Ta-n-Alt-ndaki-k.jpg"
+  },
+  {
+    "id": "UnutulmusKalkanEren",
+    "title": "Unutulmuş Kalkan: Eren Ulu'nun Sırrı",
+    "genre": "Gündemde",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/r2QfrnxJ/Unutulmu-Kalkan-Eren-Ulu-nun-S-rr.jpg"
+  },
+  {
+    "id": "TekKursun",
+    "title": "Tek Kurşun",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/MxHZpHJ4/Tek-Kur-un.jpg"
+  },
+  {
+    "id": "VedalasirkenTanimadim",
+    "title": "Vedalaşırken Tanımadım",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/XZv13Cg7/Vedala-rken-Tan-mad-m.jpg"
+  },
+  {
+    "id": "PatronumKaderim",
+    "title": "Patronum Kaderim",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/3mgcYxkD/Patronum-Kaderim.jpg"
+  },
+  {
+    "id": "SuprizKahraman",
+    "title": "Sürpriz Kahraman",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Z6byM467/S-rpriz-Kahraman.jpg"
+  },
+  {
+    "id": "DikkatEtGucBende",
+    "title": "Dikkat Et Güç Bende",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/wFmGLKq5/Dikkat-Et-G-Bende.jpg"
+  },
+  {
+    "id": "NefrettenAska",
+    "title": "Nefretten Aşka",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/bR6Cmwnc/Nefretden-A-ka.webp"
+  },
+  {
+    "id": "KisAskSarkisi",
+    "title": "Kış Aşk Şarkısı: Otelde Kader Buluşması",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/93WYnhN4/K-A-k-ark-s-Otelde-Kader-Bulu-mas.jpg"
+  },
+  {
+    "id": "IkinciBahariniYBU",
+    "title": "İkinci Baharını Yaşayan Büyük Usta",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/mFC8CmQK/kinci-Bahar-n-Ya-ayan-B-y-k-Usta.jpg"
+  },
+  {
+    "id": "CennetinBahcesindenKT",
+    "title": "Cennetin Bahçesinden Kıtlık Toprağına",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Jjp0fShT/Cennetin-Bah-esinden-K-tl-k-Topra-na.jpg"
+  },
+  {
+    "id": "AylaileAsya",
+    "title": "Ayla ile Asya",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/F4RjM0c2/Ayla-ile-Asya.jpg"
+  },
+  {
+    "id": "TahtIsigi",
+    "title": "Taht Işığı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/RTvZvN2M/Taht.jpg"
+  },
+  {
+    "id": "GucunVeAsA",
+    "title": "Gücün ve Aşkın Arasında",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/wFNHr4Bw/G-c-n-Ve-A-k-n-Aras-nda.jpg"
+  },
+  {
+    "id": "KalpKonusurGeV",
+    "title": "Kalp Konuşur Gerçek Varis Kazanır",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/YBSmpvC8/Kalp-Konu-ur-Ger-ek-Varis-Kazan-r.jpg"
+  },
+  {
+    "id": "GizliMilyarderBaba",
+    "title": "Gizli Milyarder Baba",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/3y1sWMmL/Gizli-Milyarder-Baba.jpg"
+  },
+  {
+    "id": "DagGelini",
+    "title": "Dağ Gelini Yalanı",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/pBCz0gpn/Da-Gelini-Yalan.jpg"
+  },
+  {
+    "id": "SonIttifak",
+    "title": "Son İttifak",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/KcjrTcRD/Son-ttifak.jpg"
+  },
+  {
+    "id": "SessizParilti",
+    "title": "Sessiz Parıltı",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/QvLz6yp8/Sessiz-Par-lt.jpg"
+  },
+  {
+    "id": "UyuyanGuzelEvlendim",
+    "title": "Uyuyan Güzel ile Evlendim",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/v4jsB5q7/Uyuyan-G-zel-ile-Evlendim.webp"
+  },
+  {
+    "id": "YanlisDDogruGelin",
+    "title": "Yanlış Düğünde Doğru Gelin",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Mx6sRSrp/Yanl-D-nde-Do-ru-Gelin.jpg"
+  },
+  {
+    "id": "KutsalKilicinVarisi",
+    "title": "Kutsal Kılıcın Varisi",
+    "genre": "Dublaj",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/rGFFJjc5/Kutsal-K-l-c-n-Varisi.jpg"
+  },
+  {
+    "id": "KarimYogayaB",
+    "title": "Karım Yogaya Bayılır",
+    "genre": "Altyazı",
+    "summary": "dizi bilgisi henüz eklenmedi",
+    "posterUrl": "https://i.ibb.co/Qv6Bk0Mj/Kar-m-Yogaya-Bay-l-r.webp"
   }
 ]
