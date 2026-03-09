@@ -22,6 +22,7 @@ body {
 .hero-logo {
     width: clamp(120px, 20vw, 220px);
     height: auto;
+    border-radius: 50%;
     filter: drop-shadow(0 8px 32px rgba(45, 212, 191, 0.35));
     animation: logoFloat 4s ease-in-out infinite;
 }
