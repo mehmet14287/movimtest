@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movim Admin Panel</title>
+    <!-- Arama motorlarından gizle -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <link rel="icon" type="image/png" href="NewLogoMovim2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- ===== GİRİŞ EKRANI ===== -->
+<div id="login-screen">
+    <div class="login-box">
+        <div class="login-logo">
+            <img src="NewLogoMovim2.png" alt="Movim">
+            <h1>MOVİM ADMIN</h1>
+            <p>Yetkisiz erişim yasaktır</p>
+        </div>
+        <form id="login-form" autocomplete="off">
+            <div class="form-group">
+                <label for="login-username">Kullanıcı Adı</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="login-username" placeholder="Kullanıcı adınız" required autocomplete="off" spellcheck="false">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="login-password">Şifre</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="login-password" placeholder="••••••••••" required autocomplete="off">
+                </div>
+            </div>
+            <button type="submit" id="login-submit" class="btn-login">
+                <i class="fas fa-lock-open"></i> Giriş Yap
+            </button>
+            <div class="login-error" id="login-error">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span></span>
+            </div>
+            <div class="attempt-counter" id="attempt-counter"></div>
+        </form>
+    </div>
+</div>
+
+<!-- ===== ADMIN PANEL ===== -->
+<div id="admin-panel">
+    <button class="mobile-toggle" id="mobile-toggle"><i class="fas fa-bars"></i></button>
+
+    <div class="admin-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <img src="NewLogoMovim2.png" alt="Movim">
+                <div>
+                    <span>MOVİM</span>
+                    <small>Admin Panel</small>
+                </div>
+            </div>
+            <nav>
+                <div class="nav-section">Genel</div>
+                <button class="nav-item active" data-section="dashboard">
+                    <i class="fas fa-chart-pie"></i> Dashboard
+                </button>
+
+                <div class="nav-section">İçerik</div>
+                <button class="nav-item" data-section="series">
+                    <i class="fas fa-film"></i> Dizi Yönetimi
+                </button>
+                <button class="nav-item" data-section="faq">
+                    <i class="fas fa-question-circle"></i> SSS Yönetimi
+                </button>
+                <button class="nav-item" data-section="config">
+                    <i class="fas fa-sliders-h"></i> Konfigürasyon
+                </button>
+
+                <div class="nav-section">Hesap</div>
+                <button class="nav-item" data-section="security">
+                    <i class="fas fa-shield-alt"></i> Güvenlik
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="session-info">
+                    <div class="session-dot"></div>
+                    <div>
+                        <div id="session-user" style="color:var(--text-secondary);font-size:12px;font-weight:600"></div>
+                        <div id="session-expiry" style="font-size:11px"></div>
+                    </div>
+                </div>
+                <button class="btn-logout" id="logout-btn">
+                    <i class="fas fa-sign-out-alt"></i> Çıkış Yap
+                </button>
+            </div>
+        </aside>
+
+        <!-- Ana İçerik -->
+        <main class="main-content">
+
+            <!-- ===== DASHBOARD ===== -->
+            <div class="tab-content active" id="tab-dashboard">
+                <div class="page-header">
+                    <h2><i class="fas fa-chart-pie"></i> Dashboard</h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🎬</div>
+                        <div class="stat-number" id="stat-series">-</div>
+                        <div class="stat-label">Toplam Dizi</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🇹🇷</div>
+                        <div class="stat-number" id="stat-dublaj">-</div>
+                        <div class="stat-label">Dublaj</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📝</div>
+                        <div class="stat-number" id="stat-altyazi">-</div>
+                        <div class="stat-label">Altyazı</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">❓</div>
+                        <div class="stat-number" id="stat-faq">-</div>
+                        <div class="stat-label">SSS Sorusu</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title"><i class="fas fa-info-circle"></i> Hızlı Kılavuz</div>
+                    <p style="color:var(--text-muted);font-size:14px;line-height:1.8">
+                        &bull; <strong style="color:var(--text-secondary)">Dizi Yönetimi</strong> — Dizi ekle, düzenle veya sil. Değişiklik sonrası <em>series.json</em>'u indir ve sunucuya yükle.<br>
+                        &bull; <strong style="color:var(--text-secondary)">SSS Yönetimi</strong> — Soru/cevap ekle, düzenle veya sil. <em>faq.json</em>'u indir ve güncelle.<br>
+                        &bull; <strong style="color:var(--text-secondary)">Konfigürasyon</strong> — APK linkleri, WhatsApp ve Telegram bilgilerini güncelle.<br>
+                        &bull; <strong style="color:var(--text-secondary)">Güvenlik</strong> — Şifreni değiştir ve oturum bilgilerini gör.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===== DİZİ YÖNETİMİ ===== -->
+            <div class="tab-content" id="tab-series">
+                <div class="page-header">
+                    <h2><i class="fas fa-film"></i> Dizi Yönetimi</h2>
+                    <div style="display:flex;gap:8px">
+                        <button class="btn btn-success" onclick="downloadJSON(appState.series, 'series.json')">
+                            <i class="fas fa-download"></i> series.json İndir
+                        </button>
+                        <button class="btn btn-primary" onclick="showAddSeriesModal()">
+                            <i class="fas fa-plus"></i> Yeni Dizi
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="table-controls">
+                        <div class="search-wrapper">
+                            <i class="fas fa-search"></i>
+                            <input type="text" class="search-input" id="series-search" placeholder="Dizi ara..." oninput="renderSeriesTable(this.value, document.getElementById('genre-filter').value)">
+                        </div>
+                        <select class="filter-select" id="genre-filter" onchange="renderSeriesTable(document.getElementById('series-search').value, this.value)">
+                            <option value="all">Tüm Türler</option>
+                            <option value="Dublaj">Dublaj</option>
+                            <option value="Altyazı">Altyazı</option>
+                            <option value="Gündemde">Gündemde</option>
+                        </select>
+                    </div>
+                    <div class="row-count" id="series-count"></div>
+                    <div class="data-table-wrapper">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Poster</th>
+                                    <th>Başlık / ID</th>
+                                    <th>Tür</th>
+                                    <th>Poster URL</th>
+                                    <th>İşlem</th>
+                                </tr>
+                            </thead>
+                            <tbody id="series-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== SSS YÖNETİMİ ===== -->
+            <div class="tab-content" id="tab-faq">
+                <div class="page-header">
+                    <h2><i class="fas fa-question-circle"></i> SSS Yönetimi</h2>
+                    <div style="display:flex;gap:8px">
+                        <button class="btn btn-success" onclick="downloadJSON(appState.faq, 'faq.json')">
+                            <i class="fas fa-download"></i> faq.json İndir
+                        </button>
+                        <button class="btn btn-primary" onclick="showAddFaqModal()">
+                            <i class="fas fa-plus"></i> Yeni Soru
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="faq-list"></div>
+                </div>
+            </div>
+
+            <!-- ===== KONFİGÜRASYON ===== -->
+            <div class="tab-content" id="tab-config">
+                <div class="page-header">
+                    <h2><i class="fas fa-sliders-h"></i> Konfigürasyon</h2>
+                    <div style="display:flex;gap:8px">
+                        <button class="btn btn-success" onclick="downloadJSON(appState.config, 'config.json')">
+                            <i class="fas fa-download"></i> config.json İndir
+                        </button>
+                        <button class="btn btn-primary" onclick="saveConfig()">
+                            <i class="fas fa-save"></i> Kaydet
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fas fa-download"></i> İndirme Linkleri</div>
+                    <div class="config-grid">
+                        <div class="config-field">
+                            <label>En Son Sürüm APK Linki</label>
+                            <input type="url" class="config-input" id="c-latest" placeholder="https://...">
+                        </div>
+                        <div class="config-field">
+                            <label>Google Drive Linki</label>
+                            <input type="url" class="config-input" id="c-drive" placeholder="https://drive.google.com/...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fab fa-whatsapp"></i> WhatsApp</div>
+                    <div class="config-grid">
+                        <div class="config-field">
+                            <label>WhatsApp Numarası (ülke kodu ile, örn: 905551234567)</label>
+                            <input type="text" class="config-input" id="c-wa-number" placeholder="905551234567">
+                        </div>
+                        <div class="config-field">
+                            <label>iOS için Karşılama Mesajı</label>
+                            <input type="text" class="config-input" id="c-wa-msg" placeholder="Merhaba, iOS grubunuza katılmak istiyorum.">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fab fa-telegram-plane"></i> Telegram</div>
+                    <div class="config-grid">
+                        <div class="config-field">
+                            <label>Telegram Grup/Kanal Linki</label>
+                            <input type="url" class="config-input" id="c-telegram" placeholder="https://t.me/...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== GÜVENLİK ===== -->
+            <div class="tab-content" id="tab-security">
+                <div class="page-header">
+                    <h2><i class="fas fa-shield-alt"></i> Güvenlik</h2>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fas fa-user-circle"></i> Oturum Bilgileri</div>
+                    <div style="display:grid;gap:12px">
+                        <div style="display:flex;gap:16px;flex-wrap:wrap">
+                            <div>
+                                <div style="font-size:11px;color:var(--text-muted);margin-bottom:4px">KULLANICI ADI</div>
+                                <div style="font-weight:600" id="sec-username">-</div>
+                            </div>
+                            <div>
+                                <div style="font-size:11px;color:var(--text-muted);margin-bottom:4px">ROL</div>
+                                <div style="font-weight:600;color:var(--teal)" id="sec-role">-</div>
+                            </div>
+                            <div>
+                                <div style="font-size:11px;color:var(--text-muted);margin-bottom:4px">OTURUM BİTİŞİ</div>
+                                <div style="font-weight:600" id="sec-expires">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fas fa-key"></i> Şifre Değiştir</div>
+                    <p style="color:var(--text-muted);font-size:13px;margin-bottom:16px">
+                        Şifren değiştirildiğinde <code style="background:var(--bg-secondary);padding:2px 6px;border-radius:4px;font-size:12px">admin.js</code> dosyasını yeni hash ile güncellemen gerekir.
+                    </p>
+                    <div class="config-grid" style="max-width:500px">
+                        <div class="config-field">
+                            <label>Mevcut Şifre</label>
+                            <input type="password" class="config-input" id="pw-current" placeholder="••••••••">
+                        </div>
+                        <div class="config-field">
+                            <label>Yeni Şifre (min 8 karakter)</label>
+                            <input type="password" class="config-input" id="pw-new" placeholder="••••••••">
+                        </div>
+                        <div class="config-field">
+                            <label>Yeni Şifre Tekrar</label>
+                            <input type="password" class="config-input" id="pw-confirm" placeholder="••••••••">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" style="margin-top:8px" onclick="changePassword()">
+                        <i class="fas fa-key"></i> Hash Üret
+                    </button>
+
+                    <div class="card" id="hash-result-card" style="display:none;margin-top:16px;background:var(--bg-secondary)">
+                        <div class="card-title"><i class="fas fa-copy"></i> Yeni SHA-256 Hash'in</div>
+                        <p style="font-size:12px;color:var(--text-muted);margin-bottom:8px">Bu değeri <code>admin.js</code>'teki <code>passwordHash</code> alanına yapıştır:</p>
+                        <input type="text" class="config-input" id="pw-hash-result" readonly onclick="this.select()" style="font-family:monospace;font-size:12px">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title"><i class="fas fa-info-circle"></i> Güvenlik Bilgileri</div>
+                    <div style="color:var(--text-muted);font-size:13px;line-height:2">
+                        &bull; Başarısız giriş sınırı: <strong style="color:var(--yellow)">5 deneme</strong><br>
+                        &bull; Kilitleme süresi: <strong style="color:var(--yellow)">30 dakika</strong><br>
+                        &bull; Oturum süresi: <strong style="color:var(--yellow)">2 saat</strong><br>
+                        &bull; Şifreleme: <strong style="color:var(--teal)">SHA-256 (Web Crypto API)</strong><br>
+                        &bull; Arama motoru indekslemesi: <strong style="color:var(--teal)">Kapalı (noindex)</strong>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</div>
+
+<!-- ===== DİZİ MODAL ===== -->
+<div class="modal-overlay" id="series-modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 id="series-modal-title">Dizi Ekle</h3>
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+        </div>
+        <label class="modal-label">Dizi ID (benzersiz, boşluksuz)</label>
+        <input type="text" class="modal-input" id="s-id" placeholder="KayipSef1080">
+        <label class="modal-label">Başlık</label>
+        <input type="text" class="modal-input" id="s-title" placeholder="Kayıp Şef">
+        <label class="modal-label">Tür</label>
+        <select class="modal-input" id="s-genre">
+            <option value="Dublaj">Dublaj</option>
+            <option value="Altyazı">Altyazı</option>
+            <option value="Gündemde">Gündemde</option>
+        </select>
+        <label class="modal-label">Özet (opsiyonel)</label>
+        <textarea class="modal-input" id="s-summary" placeholder="Dizi hakkında kısa bilgi..."></textarea>
+        <label class="modal-label">Poster URL</label>
+        <input type="url" class="modal-input" id="s-poster" placeholder="https://i.ibb.co/...">
+        <div class="modal-footer">
+            <button class="btn btn-ghost modal-close">İptal</button>
+            <button class="btn btn-primary" onclick="saveSeriesModal()"><i class="fas fa-save"></i> Kaydet</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== SSS MODAL ===== -->
+<div class="modal-overlay" id="faq-modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 id="faq-modal-title">Soru Ekle</h3>
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+        </div>
+        <label class="modal-label">Soru</label>
+        <input type="text" class="modal-input" id="f-question" placeholder="Soru metnini yazın...">
+        <label class="modal-label">Cevap</label>
+        <textarea class="modal-input" id="f-answer" placeholder="Cevap metnini yazın..." style="min-height:120px"></textarea>
+        <div class="modal-footer">
+            <button class="btn btn-ghost modal-close">İptal</button>
+            <button class="btn btn-primary" onclick="saveFaqModal()"><i class="fas fa-save"></i> Kaydet</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== ONAY DIALOG ===== -->
+<div class="confirm-overlay" id="confirm-overlay">
+    <div class="confirm-box">
+        <h3><i class="fas fa-exclamation-triangle" style="color:#f87171"></i> Emin misiniz?</h3>
+        <p id="confirm-text">Bu işlem geri alınamaz.</p>
+        <div class="confirm-actions">
+            <button class="btn btn-ghost" onclick="closeConfirm()">İptal</button>
+            <button class="btn btn-danger" id="confirm-ok"><i class="fas fa-trash"></i> Sil</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== TOAST CONTAINER ===== -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>
+
